@@ -1,4 +1,4 @@
-This package contains 4 out of best 5 solutions submitted into the "Tech Challenge for Atrocity Prevention" competition.
+This package contains the best 5 solutions submitted into the "Tech Challenge for Atrocity Prevention" competition.
 
 You can find the competition task problem statement here: http://community.topcoder.com/longcontest/?module=ViewProblemStatement&rd=15761&pm=12634.
 It is necessary to read the problem statement in order to understand what the solutions are doing.
@@ -33,3 +33,8 @@ For example, if you want to execute 2nd place solution on provisional test, take
 here is the command to do so:
 
 main data out 2 11284 16398 17644
+
+Finally, please note that 4th placed solution is implemented in Java (while all other solutions are implemented in C++), so it needs to be
+executed in a different, but a very similar way:
+
+java -jar place4.jar <input folder> <output folder> <first training day> <first testing day> <last testing day>
